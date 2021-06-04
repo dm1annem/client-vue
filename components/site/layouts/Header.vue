@@ -26,8 +26,8 @@
                         </a>
                     </p> 
                     <p class="flex-shrink-0">
-                            <a href="tel:+79308200225" class="hover:underline hover:text-indigo-500 ">
-                                <i class="fa fa-phone text-xl  ml-1 text-yellow-600 hover:text-indigo-500"></i> <span class="text-xl">+7(4832)30-02-25</span>
+                            <a href="tel:+79308200225" class="hover:underline hover:text-gray-400 ">
+                                <i class="fa fa-phone text-xl  ml-1 text-yellow-600 hover:text-yellow-400"></i> <span class="text-xl">+7(4832)30-02-25</span>
                             </a>	
                     </p>
                 </div>   
