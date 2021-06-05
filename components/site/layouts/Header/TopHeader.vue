@@ -1,6 +1,5 @@
 <template>
-    <header class=" ">
-        <div class="grid grid-cols-12  gap-x-2 justify-between mt-3 mx-4 md:mx-5">
+          <div class="grid grid-cols-12  gap-x-2 justify-between mt-3 mx-4 md:mx-5">
             <div class="col-start-1 col-span-2 mt-1.5" >
                 <NuxtLink  to="/">
                     <img src="@/static/img/logo3.jpg">
@@ -40,11 +39,6 @@
                 </NuxtLink>
             </div>
         </div>
-        <nav  class="flex justify-center w-full bg-yellow-100 ">
-            <span>menu</span>
-        </nav>
-    </header>
-  
 </template>
 
 <script>

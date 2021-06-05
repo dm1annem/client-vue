@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import MyHeader from '@/components/site/layouts/Header'
+import MyHeader from '@/components/site/layouts/Header/Header.vue'
 export default {
   components:{
     MyHeader
