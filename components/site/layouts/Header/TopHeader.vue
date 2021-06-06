@@ -25,8 +25,8 @@
                         </a>
                     </p> 
                     <p class="flex-shrink-0">
-                            <a href="tel:+79308200225" class="hover:underline hover:text-gray-400 ">
-                                <i class="fa fa-phone text-xl  ml-1 text-yellow-600 hover:text-yellow-400"></i> <span class="text-xl">+7(4832)30-02-25</span>
+                            <a href="tel:+79308200225" class="text-gray-500 hover:underline">
+                                <i class="fa fa-phone text-xl  ml-1 text-gray-400 hover:text-blue-400"></i> <span class="text-xl">+7(4832)30-02-25</span>
                             </a>	
                     </p>
                 </div>   
@@ -35,7 +35,7 @@
                 
             <div>
                 <NuxtLink to="#">
-                    <i class="fa fa-sign-in  text-xl ml-1 text-gray-500 flex justify-end"></i>
+                    <i class="fa fa-sign-in  text-xl ml-1 text-gray-500 flex justify-end hover:text-yellow-600"></i>
                 </NuxtLink>
             </div>
         </div>
