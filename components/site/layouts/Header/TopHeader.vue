@@ -1,5 +1,31 @@
 <template>
-          <div class="grid grid-cols-12  gap-x-2 justify-between mt-3 mx-4 md:mx-5">
+    <section>
+        <!-- Хедер для мобильных -->
+        <div class="fixed top-0 right-0 left-0 lg:hidden flex justify-between bg-gray-500 shadow-md">
+            <div class="m-1">
+                <NuxtLink  to="/">
+                    <div class="font-semibold text-xl">
+                        <span class=" text-gray-300 semibold">Каркас</span><span class="text-yellow-300">Центр</span>
+                    </div>
+                    <!-- <img src="@/static/img/logo3.jpg" class="w-auto"> -->
+                </NuxtLink >
+            </div>
+            <div class="flex">
+                <a href="https://wa.me/message/S2HVLZUQSNBBN1" >
+                    <i class="fa fa-whatsapp text-lg mt-1 text-gray-400 font-thin" aria-hidden="true"></i> 
+                </a>
+                <a href="tel:+79308200225">
+                    <i class="fa fa-phone text-lg  ml-7 mt-1 text-gray-400 font-thin"></i> 
+                </a>
+            </div>
+            <div >
+                <i class="fa fa-bars text-2xl mr-5 mt-1 text-gray-300" aria-hidden="true" v-on:click="$emit('openDrawer')"></i>
+            </div>
+
+        </div>
+
+        <!-- топхедер для десктопов -->
+        <div class="hidden lg:grid grid-cols-12  gap-x-2 justify-between mt-3 mx-4 md:mx-5">
             <div class="col-start-1 col-span-2 mt-1.5" >
                 <NuxtLink  to="/">
                     <img src="@/static/img/logo3.jpg">
@@ -37,8 +63,10 @@
                 <NuxtLink to="#">
                     <i class="fa fa-sign-in  text-xl ml-1 text-gray-500 flex justify-end hover:text-yellow-600"></i>
                 </NuxtLink>
+                
             </div>
         </div>
+    </section>
 </template>
 
 <script>
