@@ -14,12 +14,31 @@
             <i class="fa fa-bars text-xl right-0" aria-hidden="true" v-on:click="drawer=!drawer"></i>
             
         </nav>
-    <!-- мобильное меню  -->
-        <div v-show="drawer" class="fixed  top-0 bottom-0 left-0 right-0 overflow-auto w-full h-full bg-black bg-opacity-50" v-on:click="drawer=!drawer">
-            <div class="h-full w-96 bg-blue-50 " >
-
-            </div>
-        </div>
+    <!-- Overlay  -->
+        <transition
+            enter-class="opacity-0"
+            enter-active-class="transition-opacity ease-linear duration-300"
+            enter-to-class="opacity-100"
+            leave-class="opacity-100"
+            leave-active-class="transition-opacity ease-linear duration-200"
+            leave-to-class="opacity-0"
+        >
+            <div v-show="drawer" class="fixed  top-0 bottom-0 left-0 right-0 overflow-auto w-full h-full bg-black bg-opacity-50" v-on:click="drawer=!drawer"></div>
+        </transition>
+<!-- Боковое меню -->
+        <transition
+            enter-class="-translate-x-full"
+            enter-active-class="transition ease-in-out duration-700 transform"
+            enter-to-class="translate-x-0"
+            leave-class="translate-x-0"
+            leave-active-class="transition transform  ease-in-out duration-300"
+            leave-to-class="-translate-x-full"
+        >
+            <aside v-show="drawer" class="fixed  top-0 h-full w-96 bg-blue-50 " >
+                <p>nnnnnnffnfnfnfnsddddcdcdcdcdcdcdcdcdssss</p>
+            </aside>
+        </transition>
+        
     </header>
   
 </template>
