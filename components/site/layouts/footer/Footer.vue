@@ -1,5 +1,5 @@
 <template>
-<section class="bg-blue-300 text-gray-700" >
+<section class="bg-green-400 text-gray-700" >
     <div class="grid container text-xs lg:text-base">
         <div class="">
             rjynfrns

@@ -1,8 +1,8 @@
 <template>
     <section>
         <!-- Хедер для мобильных -->
-        <div class="fixed top-0 right-0 left-0 lg:hidden flex justify-between bg-blue-200 shadow-md">
-            <div class="m-1">
+        <div class="fixed top-0 right-0 left-0 lg:hidden flex justify-between bg-green-200 shadow-md">
+            <div class="m-1 z-50">
                 <NuxtLink  to="/">
                     <div class="font-semibold text-xl">
                         <span class=" text-gray-500 semibold">Каркас</span><span class="text-yellow-500">Центр</span>

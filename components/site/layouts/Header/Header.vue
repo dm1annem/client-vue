@@ -6,7 +6,7 @@
             />
         </div>
         
-        <nav  class="hidden lg:flex justify-center bg-blue-100 ">
+        <nav  class="hidden lg:flex justify-center bg-green-100 ">
             <div class="my-2" v-for="(link, i) in links" :key="i">
                 <NuxtLink :to="link.path" exact active-class="text-blue-300 border-b-2 border-yellow-300" class=" mx-4 px-3  text-lg text-gray-500 hover:text-blue-300 ">
                     {{ link.text }} 
@@ -36,8 +36,13 @@
             leave-active-class="transition transform  ease-in-out duration-300"
             leave-to-class="-translate-x-full"
         >
-            <aside v-show="drawer" class="fixed  top-0 h-full w-60 bg-blue-50 " >
-                <p>nnnnnnffnfnfnfnsddddcdcdcdcdcdcdcdcdssss</p>
+            <aside v-show="drawer" class="fixed  top-0 h-full w-full bg-green-50 z-40" >
+                <div class="flex justify-end">
+                    <div >
+                        <i class="fa fa-times  text-4xl mr-5 mt-1 text-gray-500" aria-hidden="true" v-on:click="openDrawer"></i>
+                    </div>
+                    
+                </div>
             </aside>
         </transition>
         
