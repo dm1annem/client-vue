@@ -1,25 +1,25 @@
 <template>
     <section>
         <!-- Хедер для мобильных -->
-        <div class="fixed top-0 right-0 left-0 lg:hidden flex justify-between bg-gray-500 shadow-md">
+        <div class="fixed top-0 right-0 left-0 lg:hidden flex justify-between bg-blue-200 shadow-md">
             <div class="m-1">
                 <NuxtLink  to="/">
                     <div class="font-semibold text-xl">
-                        <span class=" text-gray-300 semibold">Каркас</span><span class="text-yellow-300">Центр</span>
+                        <span class=" text-gray-500 semibold">Каркас</span><span class="text-yellow-500">Центр</span>
                     </div>
                     <!-- <img src="@/static/img/logo3.jpg" class="w-auto"> -->
                 </NuxtLink >
             </div>
             <div class="flex">
                 <a href="https://wa.me/message/S2HVLZUQSNBBN1" >
-                    <i class="fa fa-whatsapp text-lg mt-1 text-gray-400 font-thin" aria-hidden="true"></i> 
+                    <i class="fa fa-whatsapp text-lg mt-1 text-gray-500 font-thin" aria-hidden="true"></i> 
                 </a>
                 <a href="tel:+79308200225">
-                    <i class="fa fa-phone text-lg  ml-7 mt-1 text-gray-400 font-thin"></i> 
+                    <i class="fa fa-phone text-lg  ml-7 mt-1 text-gray-500 font-thin"></i> 
                 </a>
             </div>
             <div >
-                <i class="fa fa-bars text-2xl mr-5 mt-1 text-gray-300" aria-hidden="true" v-on:click="$emit('openDrawer')"></i>
+                <i class="fa fa-bars text-2xl mr-5 mt-1 text-gray-500" aria-hidden="true" v-on:click="$emit('openDrawer')"></i>
             </div>
 
         </div>
@@ -37,12 +37,12 @@
                 </div>
             </div>
             <div class="col-start-7 col-span-5 ">
-                <div >
-                    <a href="https://vk.com/karkascentr"><i class="fa fa-vk mx-1 text-gray-500 " aria-hidden="true" ></i></a>
-                    <a href="https://ok.ru/karkascentr.ru" ><i class="fa fa-odnoklassniki mx-1 text-gray-500 " aria-hidden="true"></i></a>
-                    <a href="https://www.youtube.com/channel/UCJoHMcmHq115v7XriMA5ZiQ?view_as=subscriber" ><i class="fa fa-youtube-square mx-1 text-gray-500 " aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/karkascentr.ru/"><i class="fa fa-instagram mx-1 text-gray-500 " aria-hidden="true"></i></a>
-                    <a href="https://www.facebook.com/karkascentr/" ><i class="fa fa-facebook mx-1 text-gray-500 " aria-hidden="true"></i></a>
+                <div class="text-gray-500 ">
+                    <a href="https://vk.com/karkascentr"><i class="fa fa-vk mx-1 " aria-hidden="true" ></i></a>
+                    <a href="https://ok.ru/karkascentr.ru" ><i class="fa fa-odnoklassniki mx-1 " aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/channel/UCJoHMcmHq115v7XriMA5ZiQ?view_as=subscriber" ><i class="fa fa-youtube-square mx-1" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/karkascentr.ru/"><i class="fa fa-instagram mx-1" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/karkascentr/" ><i class="fa fa-facebook mx-1 " aria-hidden="true"></i></a>
                 </div>
                 <div class=" flex justify-end text-gray-600">
                     <p class="flex-shrink-0 mr-10 border-2 border-yellow-100 hover:border-yellow-300 rounded-xl px-3 mb-1 bg-gray-100">

@@ -6,7 +6,7 @@
             />
         </div>
         
-        <nav  class="hidden lg:flex justify-center bg-indigo-50 ">
+        <nav  class="hidden lg:flex justify-center bg-blue-100 ">
             <div class="my-2" v-for="(link, i) in links" :key="i">
                 <NuxtLink :to="link.path" exact active-class="text-blue-300 border-b-2 border-yellow-300" class=" mx-4 px-3  text-lg text-gray-500 hover:text-blue-300 ">
                     {{ link.text }} 
